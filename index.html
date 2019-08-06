@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APIthemoviedb</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <ul class="genres"></ul>
+        <div class="about">
+            <button class="about-btn">About...</button>
+            <div class="about-content">
+                <img src="img/logo.png" alt="Логотип TMDb" width="200px">
+                <p>This product uses the TMDb API but <br>is not endorsed or certified by TMDb.</p>
+            </div>
+        </div>
+        <div class="result">
+            <ul class="movie-box">
+                Выберете жанр...
+            </ul>
+        </div>
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <div class="modal-close">&times;</div>
+                <div class="modal-info">
+                    <img src="" alt="Постер фильма" class="modal-info__poster">
+                    <div class="modal-info__text">
+                        <div class="modal-info__etc"></div>
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/about.js"></script>
+        <script src="js/modal.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
